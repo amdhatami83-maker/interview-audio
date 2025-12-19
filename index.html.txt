@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>صدای مصاحبه</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+      padding: 30px;
+    }
+    .box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 18px;
+    }
+    audio {
+      width: 100%;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h1>🎙 صدای مصاحبه</h1>
+  <p>برای شنیدن گفت‌وگوی کامل دکمه پخش را بزنید</p>
+
+  <audio controls>
+    <source src="interview.mp3" type="audio/mpeg">
+    مرورگر شما از پخش صدا پشتیبانی نمی‌کند.
+  </audio>
+</div>
+
+</body>
+</html>
